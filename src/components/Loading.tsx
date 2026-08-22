@@ -46,7 +46,7 @@ const Loading = ({ percent }: { percent: number }) => {
     <>
       <div className="loading-header">
         <a href="/#" className="loader-title" data-cursor="disable">
-          WEBxWARP
+          OPB PORTFOLIO
         </a>
         <div className={`loaderGame ${clicked && "loader-out"}`}>
           <div className="loaderGame-container">
@@ -62,8 +62,8 @@ const Loading = ({ percent }: { percent: number }) => {
       <div className="loading-screen">
         <div className="loading-marquee">
           <Marquee>
-            <span> A Creative Developer</span> <span>A Creative Designer</span>
-            <span> A Creative Developer</span> <span>A Creative Designer</span>
+            <span> Computer Science Engineer</span> <span>AI Systems</span>
+            <span> Full-Stack Developer</span> <span>Cyber Security</span>
           </Marquee>
         </div>
         <div
@@ -75,7 +75,7 @@ const Loading = ({ percent }: { percent: number }) => {
             <div className="loading-container">
               <div className="loading-content">
                 <div className="loading-content-in">
-                  Loading <span>{percent}%</span>
+                  Initializing <span>{percent}%</span>
                 </div>
               </div>
               <div className="loading-box"></div>

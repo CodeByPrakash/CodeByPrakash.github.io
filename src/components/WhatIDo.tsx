@@ -25,7 +25,7 @@ const WhatIDo = () => {
     };
   }, []);
   return (
-    <div className="whatIDO">
+    <div className="whatIDO" id="skills">
       <div className="what-box">
         <h2 className="title">
           W<span className="hat-h2">HAT</span>
@@ -87,25 +87,24 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>DEVELOP & AI</h3>
+              <h3>AI SYSTEMS & FULL-STACK</h3>
               <h4>Description</h4>
               <p>
-                Building AI-driven systems, machine learning models, computer vision applications, and full-stack web architectures from initial concept to cloud deployment.
+                Building AI-driven solutions, automation tools, ML products, computer vision applications, and full-stack web systems from architecture to deployment.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">JavaScript</div>
-                <div className="what-tags">TypeScript</div>
                 <div className="what-tags">React</div>
-                <div className="what-tags">Next.js</div>
+                <div className="what-tags">TypeScript</div>
                 <div className="what-tags">Node.js</div>
-                <div className="what-tags">Python</div>
+                <div className="what-tags">Next.js</div>
                 <div className="what-tags">Flask</div>
+                <div className="what-tags">Python</div>
+                <div className="what-tags">TensorFlow</div>
+                <div className="what-tags">PyTorch</div>
                 <div className="what-tags">OpenCV</div>
-                <div className="what-tags">MediaPipe</div>
                 <div className="what-tags">MongoDB</div>
                 <div className="what-tags">PostgreSQL</div>
-                <div className="what-tags">MySQL</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -129,10 +128,10 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>DESIGN & ARCHITECTURE</h3>
+              <h3>SECURE DESIGN & STRATEGY</h3>
               <h4>Description</h4>
               <p>
-                Designing interactive visual interfaces, responsive user experiences, 3D graphics, and secure software architectures tailored for modern performance.
+                Designing practical interfaces, secure architectures, accessible workflows, and performance-minded product experiences that solve real-world problems.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
@@ -141,9 +140,11 @@ const WhatIDo = () => {
                 <div className="what-tags">UI/UX Design</div>
                 <div className="what-tags">Blender</div>
                 <div className="what-tags">Tailwind CSS</div>
-                <div className="what-tags">Cyber Security</div>
                 <div className="what-tags">Agile / Scrum</div>
+                <div className="what-tags">Client Comms</div>
+                <div className="what-tags">Accessibility</div>
                 <div className="what-tags">Performance</div>
+                <div className="what-tags">Cyber Security</div>
               </div>
               <div className="what-arrow"></div>
             </div>

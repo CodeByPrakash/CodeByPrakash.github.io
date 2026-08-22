@@ -1,24 +1,37 @@
-# My React Portfolio
+# Om Prakash Behera Portfolio
 
-Welcome to my React portfolio! This is a personal project built with React to showcase my skills, projects, and experience. Feel free to explore and get in touch with me.
+React/Vite portfolio for Om Prakash Behera, also known as CodeByPrakash. The site presents a Computer Science Engineering profile focused on AI/ML systems, full-stack web development, computer vision, automation, and secure architecture.
 
-## Features
+Live reference: https://omprakashbehera.me
 
-- **Responsive Design**: Fully responsive layout that works across different devices and screen sizes.
-- **Project Showcase**: A section dedicated to displaying various projects I've worked on.
-- **About Me**: Information about my background, skills, and experience.
-- **Contact**: A contact form to get in touch with me directly via email.
+## Highlights
 
-## Technologies Used
+- Hero message: Building Intelligent Systems For All.
+- Updated biography and skill positioning from the live portfolio.
+- Full 18-project portfolio list, including ISRO Exoplanet ML, AttendTrue Analytics, MRS-AI Medicine, AR Hand Canvas, UnVoiced Sign AI, StadiumAI Vision, and more.
+- Animated smooth-scroll sections powered by GSAP.
+- Encrypted Three.js character model with Draco loading.
+- Desktop tech-stack scene using React Three Fiber and Rapier physics.
 
-- **React**: The main library for building the user interface.
-- **React Router**: For routing between different sections of the portfolio.
-- **CSS/SCSS**: For styling the portfolio and ensuring a modern look.
-- **EmailJS**: Used for sending contact form submissions to my email.
-- **React Hooks**: For managing state and lifecycle methods within functional components.
+## Tech Stack
 
-## Installation
+- React 18
+- TypeScript
+- Vite
+- GSAP, ScrollTrigger, ScrollSmoother, SplitText
+- Three.js and three-stdlib
+- React Three Fiber, Drei, Rapier, and postprocessing
+- Plain global CSS
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/OmTheWhiteHat/portfolio-react.git
+## Scripts
+
+```bash
+npm run dev
+npm run build
+npm run lint
+npm run preview
+```
+
+## Notes
+
+This repo is a static client-side portfolio. Most visible content is hard-coded in React components under `src/components`.
